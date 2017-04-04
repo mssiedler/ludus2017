@@ -105,16 +105,8 @@ public class Pergunta : MonoBehaviour {
 		
 		comandosBasicos cb = new comandosBasicos ();
 		int estrelas;
-		/*aqui tem uma lógica para armazenar as estrelas correta
-		parte sempre o nivel atual -1 * 5
-		assim a lógica de prefs de estrelas será sempre relacionada ao nível que estamos
-		Exemplo:
-		Se nivel é = 1  - partimos de 0, ou seja (1-1)*5
-		as estrelas serão de 1 a 5
-		Se nivel é = 2 - partimos de 5
-		as estrelas serão de 6 até 10 e assim por diante
-		*/
-		estrelas = (nivel-1)*5;
+	
+		estrelas = 0;//desconsiderarei temporariamente
 		switch (operacaoAtual) {
 
 		case "+":
